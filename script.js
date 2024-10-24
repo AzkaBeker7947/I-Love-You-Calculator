@@ -11,7 +11,7 @@ function calculate() {
         display.value = 'i love You XD';
         setTimeout(function() {
             display.value = 'btw coba pencet "=" lagi :D'
-        }, 2000);
+        }, 1000);
     } else {
         try {
             display.value = eval(expression);
