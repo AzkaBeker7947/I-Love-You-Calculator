@@ -8,10 +8,10 @@ function calculate() {
     const expression = display.value;
     
     if (expression.match(/[0-9]+[+\-*/][0-9]+/)) {
-        display.value = 'i love You XD "jangan keluar dulu"';
+        display.value = 'i love You XD';
         setTimeout(function() {
             display.value = 'btw coba pencet "=" lagi :D'
-        }, 1000);
+        }, 1500);
     } else {
         try {
             display.value = eval(expression);
